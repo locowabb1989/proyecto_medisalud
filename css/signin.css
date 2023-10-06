@@ -1,0 +1,109 @@
+html
+body {
+  height: 50%;
+}
+
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: left;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+}
+
+.form-signin {
+  width: 50%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 10;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* Estilo para el formulario */
+form {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilo para las etiquetas */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Estilo para los campos de entrada */
+input[type="text"],
+input[type="number"],
+textarea,
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+/* Estilo para el botón de envío */
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Estilo para el botón de envío al pasar el cursor */
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Opcional: Estilo para la etiqueta 'sr-only' (oculta visualmente el campo Cantidad) */
+.sr-only {
+  position: absolute;
+left: -9999px;
+}
+
+
+/* Opcional: Estilo para los saltos de línea */
+br {
+  display: none;
+}
